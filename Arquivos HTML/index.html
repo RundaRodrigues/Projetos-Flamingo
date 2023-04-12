@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" type="image/png" href="../Imagens/home.png">
+	<link rel="stylesheet" href="../Arquivos CSS/css/reset.css">
+	<link rel="stylesheet" href="../Arquivos CSS/css/exemplo.css">
+
+	<title>Petterfly | Home</title>
+
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<div class="grid">
+				<div class="gridLogo">
+					<a href="index.html"><img class="logo" src="../Imagens/borboleta.png"></a>
+				</div>
+				<div class="gridBusca">
+					<input type="text" id="txtBusca" placeholder="Buscar..." />
+				</div>
+				<div class="gridLinks">
+					<a id="home" href="index.html" class="redirecionamento">Home</a>
+					<a id="sobreNos" href="#nossoTime" class="redirecionamento">Sobre nós</a>
+					<a id="shopping" href="shop.html" class="redirecionamento">Shopping</a>
+					<a id="contato" href="form.html" class="redirecionamento">Contato</a>
+					<a id="adocao" href="adocao.html" class="redirecionamento">Adoção</a>
+				</div>
+		</nav>
+		<br>
+
+		<h1 class="bemvindo">Bem-vindo ao Petterfly</h1>
+	</header>
+
+	<main>
+		<div class="conteudo">
+			<div class="sobrenos">
+				<h2>Sobre nós</h2>
+				<p class="sobrenostexto">Somos uma loja de animais especializada em fornecer produtos de <span
+						class="texto_negrito">alta qualidade</span> para todas as necessidades do seu animal de
+					estimação. Temos uma grande variedade de <span class="texto_destaque">alimentos</span>,
+					brinquedos e acessórios para cães, gatos, pássaros e pequenos animais.</p>
+			</div>
+
+			<div class="compreconosco">
+				<h2>Compre Conosco</h2>
+				<p class="compreconoscotexto">Confira nossa loja online para ver nossa seleção de produtos para animais
+					de estimação.<br> Oferecemos <span class="texto_destaque">frete rápido e gratuito para pedidos acima
+						de
+						<span class="texto_negrito">R$50,00<span>.</p>
+			</div>
+			
+		</div>
+		<br><br>
+
+		<center>
+			<h1 id="nossoTime">Nosso time</h1>
+		</center>
+
+		<div class="container">
+			<div class="member">
+				<img src="data:image/jpeg;base64,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"
+					alt="Pessoa Feliz">
+				<h3>Rundã Rodrigues</h3>
+				<p>CEO</p>
+			</div>
+
+			<div class="member">
+				<img src="https://static.vecteezy.com/ti/fotos-gratis/t2/5887843-bonito-homem-preto-vestindo-terno-em-fundo-urbano-foto.jpg"
+					alt="Pessoa Feliz">
+				<h3>Pedro Silva</h3>
+				<p>CTO</p>
+			</div>
+
+			<div class="member">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0EODyzTb0sp4E40oqqWKYl5PJabCFAHhD0dEhB6HnVksAmDr8ptUYFiDCTI6lIx-3XUU&usqp=CAU"
+					alt="Pessoa Feliz">
+				<h3>Vinicius Amaral</h3>
+				<p>Inteligência Artificial</p>
+			</div>
+
+			<div class="member">
+				<img src="https://www.idinheiro.com.br/wp-content/uploads/2022/03/idi-8.jpg" alt="Pessoa Feliz">
+				<h3>Roberto Gong</h3>
+				<p>Treino</p>
+			</div>
+
+	</main>
+
+	<footer class="rodape">
+		<p>&copy; 2023 Petterfly. Todos os direitos reservados.</p>
+	</footer>
+
+</body>
+
+</html>
