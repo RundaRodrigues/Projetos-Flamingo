@@ -1,0 +1,13 @@
+html {
+  background-image: url(https://i.pinimg.com/originals/7a/fb/04/7afb0491c91b2f9e9aac56667c3be677.jpg);
+}
+
+h1 {
+  text-align: center;
+}
+
+#rodape {
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+}
