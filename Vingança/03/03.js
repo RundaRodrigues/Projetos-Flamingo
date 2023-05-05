@@ -13,7 +13,6 @@ var maior;
             alert(maior);
         }
             else {
-                (z > x && z > y)
                 maior = z;
                 alert(maior);
             }

@@ -1,8 +1,9 @@
 var x = prompt("informe o primeiro valor");
-var y = prompt("informe o primeiro valor");
-var z = prompt("informe o primeiro valor");
+var y = prompt("informe o segundo valor");
+var z = prompt("informe o terceiro valor");
 
 var maior;
+var maior2;
 var menor;
 var soma = maior + maior2;
 
@@ -14,8 +15,7 @@ var soma = maior + maior2;
             maior = y;
             alert(maior);
         }
-            else {
-                (z > x && z > y)
+            else if (z > x && z > y) {
                 maior = z;
                 alert(maior);
             }

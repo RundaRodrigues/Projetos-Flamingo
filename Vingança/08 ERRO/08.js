@@ -7,17 +7,17 @@ var s
 
 var m = (s) / 4
 
-if (10 <= a > 0) {
+if (a > 0 && a <= 10) {
     s = a
 }
-    else if (10 <= b > 0) {
-        s + b
+    else if (b > 0 && b <= 10) {
+        (s + b)
     }
-        else if (10 <= c > 0) {
-            s + c
+        else if (c > 0 && c <= 10) {
+            (s + c)
         }
-            else if (10 <= d > 0) {
-                s + d
+            else if (d > 0 && d <= 10) {
+                (s + d)
             }
             
 alert(m)

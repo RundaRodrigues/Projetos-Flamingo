@@ -7,7 +7,7 @@ var f = Number(prompt("informe o sexto valor"));
 
 var m = (a + b + c + d + e + f) / 6
 
-alert("A média aritimética dos números é " + m)
+alert(`Os números informados foram: ${a}; ${b}; ${c}; ${d}; ${e} e ${f}, A média aritimética dos números é ${m}`)
 
 
 
