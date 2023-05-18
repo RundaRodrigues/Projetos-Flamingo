@@ -9,19 +9,19 @@ var soma = maior + menor
 
     if (x > y && x > z) {
         maior = x
-    } 
+    }
         else if (x < y && x < z) {
             menor = x
         }
             else if (y > x && y > z) {
                 maior = y
-            } 
+            }
                 else if (y < x && y < z) {
                     menor = y
                 }
                     else if (z > x && z > y) {
                     maior = z
-                    } 
+                    }
                         else if (z < x && z < y) {
                            menor = z
                         }
