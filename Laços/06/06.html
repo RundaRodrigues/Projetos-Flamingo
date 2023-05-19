@@ -1,0 +1,44 @@
+<html>
+ <title>Laços de repetição</title>
+<head>
+
+	<script>
+        var aprovados = 0;
+        function inicio() {
+            var x = Number(prompt('Insira a primeira nota'))
+            var y = Number(prompt('Insira a segunda nota'))
+            var media = (x + y)/ 2;
+            
+
+            alert('A média é: ' + media);
+
+            if (media > 9.5) {
+                alert('Parabéns, você atingiu a média esperada');
+                aprovados = aprovados + 1;
+                pergunta();
+            } 
+
+            if (media < 9.5) {
+                alert('Sinto muito, você não atingiu a média esperada')
+                pergunta();
+            }
+        }
+            
+        function pergunta() {
+            var repeticao = prompt('Deseja executar o programa novamente? SIM | NÃO')
+
+            if (repeticao === 'SIM'){
+                inicio();
+            } else {
+                alert('O número de alunos aprovados é de :' + aprovados)
+                window.close()
+            }
+        }
+
+        inicio();
+    </script>
+</head>
+<body>
+
+</body>
+</html>  
