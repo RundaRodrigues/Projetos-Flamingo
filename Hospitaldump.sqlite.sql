@@ -9,6 +9,12 @@ CREATE TABLE Consultas (
     FOREIGN KEY (PacienteID) REFERENCES Pacientes(PacienteID),
     FOREIGN KEY (MedicoID) REFERENCES Medicos(MedicoID)
 );
+CREATE TABLE Enfermeiros (
+    EnfermeiroID INT PRIMARY KEY,
+    Nome VARCHAR(50),
+    CRE VARCHAR(100),
+  	Turno VARCHAR(50)
+);
 CREATE TABLE Hospital (
     DepartamentoID INT PRIMARY KEY,
     Localidade VARCHAR(50),
