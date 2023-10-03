@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<script>
+			var senha = 2106;
+			var hotel = prompt('Insira o nome do Hotel :');
+            var usuario = prompt('Insira o nome do usuário :');
+
+			function inicio() {
+                var senhaUsuario = Number(prompt('Insira a senha: '))
+                while (senhaUsuario === senha) {
+                    var mensagem = alert('Sem bem-vindo(a), ' + usuario + ', é um prazer tê-lo(a) conosco no Hotel ' + hotel);
+				    var escolha = parseInt(prompt('Selecione uma opção' + '\n' + '1.) Reserva'));	
+				    switch (escolha) {
+					    case 1:
+						    reserva();
+						    break;
+					    default:
+						    erro();
+						    break;
+				    }   
+                }
+                
+                if (isNaN(senhaUsuario) || senhaUsuario === '') {
+					alert('Por favor, insira a senha novamente');
+					inicio();
+				} else {
+					alert('Senha incorreta')
+					inicio();
+				}
+			}
+
+            function reserva() {
+                var diariavalor = Number(prompt('Qual o valor da diária'))
+                if (diariavalor <= 0) {
+                    alert('Valor inválido, ' + usuario)
+                    reserva()
+                }
+
+                var diariatempo = Number(prompt('Quantas diárias serão necessárias ?'))
+                if (diariatempo <=0 && diariatempo >=31) {
+                    alert('Tempo inválido, ' + usuario)
+                    reserva()
+                }
+
+                var diariavalortempo = diariatempo * diariavalor
+                alert('O valor de ' + diariatempo + ' diária(as) ' + ' é de R$' + diariavalortempo)
+                var hospede = prompt('Qual o nome do Hóspede?')
+                var confirmahospedagem = prompt(hospede + ' você confirma a hospedagem por ' + diariatempo + ' dia(as) ?  S/N')
+                if (confirmahospedagem === 'S') {
+                    alert(usuario + ' reserva efetuada para ' + hospede + '. O valor total é de ' + diariatempo + ' dia(as)')
+                } else {
+                    alert(usuario + ' reserva não efetuada.')
+                    inicio()
+                }
+            }
+
+            function erro() {
+				alert('Por favor, informe um número entre 1 e 6');
+				inicio();
+			}
+
+			inicio();
+		</script>
+	</head>
+</html>
