@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE items>
+<items>
+    <row>
+       <MedicoID>1</MedicoID>
+       <Nome>Dr. Ana Silva</Nome>
+       <Especialidade>Cardiologia</Especialidade>
+       <CRM>12345</CRM>
+       <Turno>Manhã</Turno>
+       <em_atividade>0</em_atividade>
+    </row>
+    <row>
+       <MedicoID>2</MedicoID>
+       <Nome>Dr. Pedro Santos</Nome>
+       <Especialidade>Ortopedia</Especialidade>
+       <CRM>23456</CRM>
+       <Turno>Tarde</Turno>
+       <em_atividade>null</em_atividade>
+    </row>
+    <row>
+       <MedicoID>3</MedicoID>
+       <Nome>Dra. Maria Alves</Nome>
+       <Especialidade>Ginecologia</Especialidade>
+       <CRM>34567</CRM>
+       <Turno>Manhã</Turno>
+       <em_atividade>0</em_atividade>
+    </row>
+    <row>
+       <MedicoID>4</MedicoID>
+       <Nome>Dr. Carlos Oliveira</Nome>
+       <Especialidade>Pediatria</Especialidade>
+       <CRM>45678</CRM>
+       <Turno>Tarde</Turno>
+       <em_atividade>null</em_atividade>
+    </row>
+    <row>
+       <MedicoID>5</MedicoID>
+       <Nome>Dra. Luana Martins</Nome>
+       <Especialidade>Dermatologia</Especialidade>
+       <CRM>56789</CRM>
+       <Turno>Manhã</Turno>
+       <em_atividade>null</em_atividade>
+    </row>
+    <row>
+       <MedicoID>6</MedicoID>
+       <Nome>Dr. André Rodrigues</Nome>
+       <Especialidade>Neurologia</Especialidade>
+       <CRM>67890</CRM>
+       <Turno>Noite</Turno>
+       <em_atividade>null</em_atividade>
+    </row>
+    <row>
+       <MedicoID>7</MedicoID>
+       <Nome>Dra. Laura Pereira</Nome>
+       <Especialidade>Oftalmologia</Especialidade>
+       <CRM>78901</CRM>
+       <Turno>Tarde</Turno>
+       <em_atividade>null</em_atividade>
+    </row>
+    <row>
+       <MedicoID>8</MedicoID>
+       <Nome>Dr. Daniel Costa</Nome>
+       <Especialidade>Urologia</Especialidade>
+       <CRM>89012</CRM>
+       <Turno>Manhã</Turno>
+       <em_atividade>null</em_atividade>
+    </row>
+    <row>
+       <MedicoID>9</MedicoID>
+       <Nome>Dra. Sofia Fernandes</Nome>
+       <Especialidade>Psiquiatria</Especialidade>
+       <CRM>90123</CRM>
+       <Turno>Noite</Turno>
+       <em_atividade>null</em_atividade>
+    </row>
+    <row>
+       <MedicoID>10</MedicoID>
+       <Nome>Dr. João Santos</Nome>
+       <Especialidade>Cirurgia Geral</Especialidade>
+       <CRM>01234</CRM>
+       <Turno>Tarde</Turno>
+       <em_atividade>null</em_atividade>
+    </row>
+</items>
